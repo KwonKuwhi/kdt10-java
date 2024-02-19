@@ -4,7 +4,7 @@ package _05_class._07_interface;
 // interface 선언
 public interface RemoteControl {
     // 필드
-     static int volume=0;
+
 
 
     // 추상 메서드 선언
