@@ -19,11 +19,11 @@ class Pair<K,V>{
 }
 public class GenericPrac {
     public static void main(String[] args) {
-        Pair pair1 = new Pair<>("One", 1);
+        Pair<String, Integer> pair1 = new Pair<>("One", 1);
         System.out.println("Key: " + pair1.getKey()+" , Value: " + pair1.getValue());
 
 
-        Pair pair2 = new Pair<>(2,"Two");
+        Pair<Integer,String> pair2 = new Pair<>(2,"Two");
         System.out.println("Key: " + pair2.getKey()+" , Value: " + pair2.getValue());
 
     }
